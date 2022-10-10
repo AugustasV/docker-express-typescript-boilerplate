@@ -64,6 +64,6 @@ jobs:
           username: $GITHUB_ACTOR
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: {{ env.OWNER_LC }}/docker-express-typescript-boilerplate/docker-express-typescript-boilerplate
+          repository: ${{ env.OWNER_LC }}/docker-express-typescript-boilerplate/docker-express-typescript-boilerplate
           tag_with_sha: true
           tag_with_ref: true
